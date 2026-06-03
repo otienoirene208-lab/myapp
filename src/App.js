@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Firstcomponent from './components/Firstcomponent';
 import Secondcomponent from './components/Secondcomponent';
 import Taskcomponent from './components/Taskcomponent';
@@ -13,6 +14,7 @@ function App() {
         <Firstcomponent/>
         <Secondcomponent/>
         <Taskcomponent/>
+        <About/>
       
       </header>
     </div>
