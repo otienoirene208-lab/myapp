@@ -43,3 +43,22 @@
 .second{
   background-color: rgb(61, 42, 165);
 }
+nav{
+  padding :10px;
+}
+.links{
+  margin: 10px;
+  background-color: rgb(100, 237, 180);
+  padding: 5px;
+  text-decoration: wavy;
+  font-weight: 500;
+  border-radius: 10px;
+
+}
+.links:hover{
+  background-color: crimson;
+  color: azure;
+  font-style: italic;
+  text-align: center;
+  
+}
