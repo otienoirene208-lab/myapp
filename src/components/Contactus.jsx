@@ -17,7 +17,7 @@ const Contactus =()=> {
             
             <button onClick={()=>setemail('juma@gmail')}> this is our email</button>
 
-            <button  onClick={()=>setphone(1114238623)}>you can reach us on this phone</button>
+            <button  onClick={()=>setphone( 1114238623)}>you can reach us on this phone</button>
         </div>
     )
 }

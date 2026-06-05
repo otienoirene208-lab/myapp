@@ -9,6 +9,7 @@ import Taskcomponent from './components/Taskcomponent';
 import Taskfourcomponent from './components/Taskfourcomponent';
 import Thirdcomponent from './components/Thirdcomponent';
 import Contactus from './components/Contactus';
+import Notfound from './components/Notfound';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
        <h1>Welcome to learning Reactjs</h1>
        {/* Bellow are our links connecting to different componets */}
        <nav>
-        <Link to='/first' className='links' >first</Link>
+        <Link to='/' className='links' >first</Link>
         <Link to='/second' className='links'>second</Link>
         <Link to='/third' className='links'> third</Link>
         <Link to='/forth' className='links'>forth</Link>
@@ -31,7 +32,7 @@ function App() {
 
         {/* below we render /show/display or components */}
         <Routes>
-          <Route path ='/first' element={<Firstcomponent/>} />
+          <Route path ='/' element={<Firstcomponent/>} />
           <Route path ='/second'element ={<Secondcomponent/>}/>
           <Route path ='/third' element ={<Thirdcomponent/>}/>
           <Route path ='/forth' element ={<Forthcomponent/>}/>
@@ -40,6 +41,7 @@ function App() {
           <Route path='taskfour' element={<Taskfourcomponent/>}/>
           <Route path='about' element ={<About/>}/>
           <Route path='contactus' element={<Contactus/>}/>
+          <Route path='*' element ={<Notfound/>}/>
         </Routes>
       
       </header>
